@@ -1,0 +1,101 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and runtime data
+*.log
+*.log.*
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# Package and build files
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+*.dist-info/
+*.tar.gz
+
+# Testing and coverage
+.coverage
+coverage.*
+.tox/
+.nox/
+.pytest_cache/
+.hypothesis/
+coverage.xml
+junit.xml
+htmlcov/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Environment and configuration files
+.env
+*.env
+.env.*
+!.env.example
+!.env.vault
+.local
+.envrc
+
+# Dependency management
+Pipfile.lock
+poetry.lock
+requirements.txt.bak
+
+# Documentation build files
+docs/_build/
+docs/build/
+*.doctrees
+
+# Database and migrations
+*.sqlite3
+*.db
+migrations/
+*.sql
+
+# Miscellaneous
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+.profile
+.bash_history
+.ssh/
+.cache/
+.python_history
+
+# Project-specific temporary or output files
+data/
+output/
+temp/
+tmp/
+uploads/
+media/
+staticfiles/
+flagged/
